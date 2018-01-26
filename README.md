@@ -19,5 +19,12 @@ The user friendly terminal menu gives you 5 options to choose from
 >>1. Install Python
 >>2. Install pip
 >>3. Install dependencies
+
 >Windows
 >>On my website(coming soon), I have a detailed instructional guide on how to install this for beginers.
+>>Until then, you'll need
+>>1. InstallPython
+>>2. Install Pycharm
+>>3. Install Pip
+>>3. Install dependencies
+
