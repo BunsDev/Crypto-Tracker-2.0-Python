@@ -4,6 +4,7 @@ import sys
 from termcolor import colored
 import os
 import glob
+import webbrowser
 
 
 def jumbo():
@@ -45,6 +46,7 @@ def menu():
     nav()
     print("     ====================   1.) Check Rankings   2.) Add Wallet        ======================")
     print("     ====================   3.) Check Wallet     4.) Exit              ======================")
+    print("     ====================   5.) Visit Planet Cryptoid                  ======================")
     foot()
     rank = raw_input(" ")
     menu_controller(rank)
@@ -60,6 +62,9 @@ def menu_controller(rank):
     elif int(rank) == 4:
         os.system("clear")
         exit()
+    elif int(rank) == 5:
+        url = "https://www.planetcryptoid.tech"
+        webbrowser.open_new(url)
     else:
         not_cool()
 
