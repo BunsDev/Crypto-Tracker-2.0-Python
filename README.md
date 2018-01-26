@@ -9,3 +9,6 @@ The user friendly terminal menu gives you 5 options to choose from
 ![Check Rankings](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/Screen%20Shot%202018-01-25%20at%209.16.20%20PM.png? "Check Rankings")
 2.) Add up to (3) wallets, any combination you like! (I like to use 1 wallet for all my hardware crypto, another for all my exchange crypto and finally all of them combined
 ![Add Wallet](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/Screen%20Shot%202018-01-25%20at%209.17.32%20PM.png? "Add Wallet")
+3.) Check on your existing wallets, receive information about your crypto to USD
+![Check Wallet](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/Screen%20Shot%202018-01-25%20at%209.32.10%20PM.png "Check Wallet")
+![Check Wallet](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/Screen%20Shot%202018-01-25%20at%209.35.03%20PM.png? "Check Wallet")
