@@ -1,6 +1,7 @@
 import urllib, json
-
 import sys
+
+from __builtin__ import raw_input
 from termcolor import colored
 import os
 import glob
@@ -112,7 +113,14 @@ def ask_wallet():
         menu()
     else:
         answer = raw_input("     ======== Wallet Select: ")
-        wallet_controller(answer, wallets)
+        if int(answer) == 1:
+            wallet_controller(answer, wallets[0])
+        elif int(answer) == 2:
+            wallet_controller(answer, wallets[1])
+        elif int(answer) == 3:
+            wallet_controller(answer, wallets[2])
+        else:
+            not_cool()
 
 
 def dic2pretty(wallet):
@@ -123,7 +131,7 @@ def dic2pretty(wallet):
 
 
 def check_wallet(wallet):
-    file = wallet[0]
+    file = wallet
     with open(file) as json_data:
         d = json.load(json_data)
         os.system("clear")
@@ -133,7 +141,7 @@ def check_wallet(wallet):
 def wallet_stats(d, wallet):
     jumbo()
     nav()
-    print("     ====================                Wallet:  " + dic2pretty(wallet[0]) + "             ======================")
+    print("     ====================                Wallet:  " + dic2pretty(wallet) + "             ======================")
     print("     ====================      =Rank= ===Name=== ==Price==  ==1h %==   ======================")
     data = calculate(str(d[0]['btc']), str(d[0]['eth']), str(d[0]['xrp']))
     btc_per = color(data[0]['btc_per'])
@@ -170,9 +178,9 @@ def add_wallet():
 
 def check_ranks():
     nav()
-    print("     ================== How many Crypto's would you like listed?(1-1000) ====================")
+    print("     ================== How many Crypto's would you like listed?(1-879) ====================")
     ranks = raw_input(" ")
-    url = "https://api.coinmarketcap.com/v1/ticker/?limit=" + ranks
+    url = "https://api.coinmarketcap.com/v1/ticker/?limit=" + str(ranks)
     response = urllib.urlopen(url)
     data = json.loads(response.read())
     i = 0
@@ -186,7 +194,7 @@ def check_ranks():
 
     btc_price = str(data[0]['price_usd'])
 
-    ranks = raw_input("     ==================         Enter anything to return to menu         ====================")
+    raw_input("     ==================         Enter anything to return to menu         ====================")
     menu()
 
 
