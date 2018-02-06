@@ -1,3 +1,4 @@
+[![License Apache2.0](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/LICENSE)](https://github.com/adamvaldez/Crypto-Tracker-2.0/blob/master/LICENSE)
 # Crypto-Tracker-2.0
 Easy manage your crypto from hardware to exchange, track your USD value.
 A more user friendly terminal version, you don't need to know how to code configure it.
