@@ -1,3 +1,4 @@
+[!Styled with](https://img.shields.io/badge/Styled%20with-Colored-orange.svg)
 # Crypto-Tracker-2.0
 Easy manage your crypto from hardware to exchange, track your USD value.
 A more user friendly terminal version, you don't need to know how to code configure it.
