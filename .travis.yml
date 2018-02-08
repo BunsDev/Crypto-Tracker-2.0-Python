@@ -12,3 +12,7 @@ install:
 
 env:
   - SH=bash
+
+notifications:
+  slack:
+    on_success: never
