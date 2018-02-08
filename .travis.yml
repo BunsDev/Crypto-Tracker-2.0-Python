@@ -16,3 +16,7 @@ env:
 notifications:
   slack:
     on_success: never
+    
+notifications:
+  email: false
+YAML
