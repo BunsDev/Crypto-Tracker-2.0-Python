@@ -6,3 +6,9 @@ python:
   - "3.6"
 
 script: crypto_tracker.py
+
+install:
+  - pip install colored --upgrade
+
+env:
+  - SH=bash
