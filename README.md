@@ -21,7 +21,7 @@ The user friendly terminal menu gives you 5 options to choose from
 >>3. Install dependencies
 
 >Windows
->>On my website(coming soon), I have a detailed instructional guide on how to install this for beginers.
+>>On my website(coming soon), I have a detailed instructional guide on how to install this for beginners.
 >>Until then, you'll need
 >>1. InstallPython
 >>2. Install Pycharm
