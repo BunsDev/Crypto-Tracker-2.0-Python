@@ -127,6 +127,7 @@ def dic2pretty(wallet):
     walleto = wallet[8:]
     walleto = walleto.split(".")[0]
 #    walleto = walletz[:2]
+#   This is a test commit
     return walleto
 
 
